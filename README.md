@@ -3,6 +3,7 @@ This repository provides a PyTorch/PyG implementation of a cross-dataset unsuper
 Source domain: **SEED** (labeled). Target domain: **SEED-VII** (unlabeled during training, labels used only for evaluation).
 
 ## Repository Structure
+```text
 .
 ├── SEED/
 │   ├── datapipe.py
@@ -13,6 +14,7 @@ Source domain: **SEED** (labeled). Target domain: **SEED-VII** (unlabeled during
 │   ├── main.py
 │   └── Net.py
 └── README.md
+```
 
 ## Requirements
 - Python 3.9+ (recommended)
